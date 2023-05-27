@@ -1,11 +1,7 @@
-import {
-  LoginButton,
-  LogoutButton,
-  ProfileButton,
-  RegisterButton,
-} from "@/components/buttons";
+// import { LoginButton } from "@/components/buttons";
 
-export default function Home() {
+export default async function Home() {
+  
   return (
     <main
       style={{
@@ -15,11 +11,11 @@ export default function Home() {
         height: "70vh",
       }}
     >
+      <h1>Hello World!</h1>
       <div>
-        <LoginButton />
-        <RegisterButton />
-        <LogoutButton />
-        <ProfileButton />
+        {/* <LoginButton /> */}
+
+        
       </div>
     </main>
   );
